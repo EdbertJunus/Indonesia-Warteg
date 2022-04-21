@@ -19,7 +19,7 @@
         String price = request.getParameterValues("foodPrice")[0].replace(".","");
         
         out.println("<input type=\"hidden\" name=\"foodPrice\" id=\""+foodId+"Price\" value="+price+">");
-        out.println("<input type=\"number\" class=\"form-control\" name=\"foodTotal\" id=\"numberOf"+foodId+"\" min=\"1\" placeholder=\"Jumlah\">");
+        out.println("<input type=\"number\" class=\"form-control\" name=\"foodTotal\" id=\"numberOf"+foodId+"\" min=\"1\" max=\"999\" placeholder=\"Jumlah\">");
       %>
     </div>
   </div>

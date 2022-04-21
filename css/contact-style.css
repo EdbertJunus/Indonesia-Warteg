@@ -16,3 +16,17 @@
   margin: 0 16px;
   width: 25%;
 }
+
+@media screen and (max-width: 576px) {
+  .image-services {
+    flex-direction: column;
+  }
+  .image-text {
+    width: 100%;
+    margin: 16px;
+  }
+  .image-services > img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
