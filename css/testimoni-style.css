@@ -20,7 +20,7 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 30px 10px;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .btn-testimoni {
@@ -42,10 +42,14 @@
     width: 100%;
   }
   .testimoni-item,
-  .testimoni-container {
+  .testimoni-item-container,
+  .testimoni-form-container {
     width: 100%;
   }
   .testimoni-form {
     align-items: center;
+  }
+  .testimoni-item-container {
+    padding: 10px;
   }
 }

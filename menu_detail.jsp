@@ -32,6 +32,7 @@
                         price = foodOrderPrice.get(i);
                         total = foodTotal[id-1];
                         grandTotal = grandTotal + (Integer.parseInt(price) * Integer.parseInt(total));
+                        if(Integer.parseInt(total) == 0) continue;
                 %>
                     <jsp:include page="order_item.jsp">
                         <jsp:param name="nama" value="<%= nama%>" />

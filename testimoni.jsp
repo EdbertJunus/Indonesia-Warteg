@@ -30,7 +30,7 @@
           ></textarea>
         </div>
           <p class="error-message" id="errorTestimoni"></p>
-        <button class="btn btn-success btn-testimoni" id="submitTestimoni" type="submit" value="Testimoni">Submit</button>
+        <button class="btn btn-success btn-testimoni" id="submitTestimoni" type="submit" value="Testimoni">Simpan</button>
       </form>
     </div>
     <div class="container-fluid testimoni-item-container">
