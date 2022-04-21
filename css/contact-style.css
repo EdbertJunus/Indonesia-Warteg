@@ -1,0 +1,18 @@
+.image-services > img {
+  height: 200px;
+  border-radius: 10px;
+}
+
+.image-services {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-text {
+  color: maroon;
+  font-weight: 600;
+  margin: 0 16px;
+  width: 25%;
+}

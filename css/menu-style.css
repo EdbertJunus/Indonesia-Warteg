@@ -1,0 +1,47 @@
+/* Menu */
+
+.menu,
+.menu-detail {
+  padding: 20px 60px;
+}
+
+.menu h2 {
+  margin-bottom: 20px;
+}
+
+.price {
+  font-weight: 600;
+}
+
+.food-name {
+  font-weight: 400;
+}
+
+/* Menu Detail */
+.calculate-btn {
+  margin: 10px 0;
+}
+
+.download-btn {
+  margin: 20px 0;
+}
+
+.error-message {
+  color: red;
+}
+
+/* Order Item */
+.order-item {
+  margin-bottom: 20px;
+}
+
+.item-title {
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .menu,
+  .menu-detail {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,10 @@
+foodName: Sate Ayam
+foodPrice: 50000
+
+foodName: Nasi Ayam
+
+
+{
+  name: sateAyam,
+price
+},
